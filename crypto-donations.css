@@ -1,0 +1,75 @@
+.crypto-section {
+    height: auto;
+    min-height: 100vh;
+    padding: 3rem 0;
+}
+
+.donation-content {
+    display: grid;
+    gap: 1.5rem;
+    margin: 2rem 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.donation-item {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 0, 0, 0.3);
+    text-align: center;
+}
+
+.donation-item h3 {
+    font-family: 'Orbitron', monospace;
+    font-size: 1.5rem;
+    color: #ff0000;
+    margin-bottom: 0.5rem;
+}
+
+.address {
+    font-size: 1rem;
+    color: #ccc;
+    word-break: break-all;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.pump-token {
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #ffd700;
+    animation: goldGlow 2s infinite alternate;
+}
+
+.pump-token h3 {
+    color: #ffd700;
+}
+
+.pump-link {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #ffd700;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Orbitron', monospace;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.pump-link:hover {
+    background: #ffaa00;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 215, 0, 0.5);
+}
+
+@keyframes goldGlow {
+    from {
+        box-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700;
+    }
+    to {
+        box-shadow: 0 0 10px #ffd700, 0 0 20px #ffaa00, 0 0 30px #ffaa00;
+    }
+}
