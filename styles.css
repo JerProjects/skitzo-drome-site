@@ -404,13 +404,13 @@ section {
 }
 
 .fund-btn.crypto:hover {
-    border-color: #ff0000;
-    box-shadow: 0 5px 10px rgba(255, 0, 0, 0.3);
+    border-color: #002fff;
+    box-shadow: 0 5px 10px rgba(4, 0, 255, 0.3);
 }
 
 .fund-btn.pump:hover {
-    border-color: #0066ff;
-    box-shadow: 0 5px 10px rgba(0, 102, 255, 0.3);
+    border-color: #00ff00;
+    box-shadow: 0 5px 10px rgba(51, 255, 0, 0.3);
 }
 
 .fund-btn.paypal:hover {
