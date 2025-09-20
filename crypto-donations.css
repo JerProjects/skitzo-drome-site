@@ -28,6 +28,10 @@
     margin-bottom: 0.5rem;
 }
 
+.donation-item {
+    z-index: 2;
+}
+
 .address {
     font-size: 1rem;
     color: #ccc;
